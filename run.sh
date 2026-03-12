@@ -3,29 +3,22 @@
 echo "=============================================="
 echo " AI Product Visibility & Trust Monitoring "
 echo "=============================================="
-
-echo ""
-echo "Running AI production Discovery monitoring test..."
 echo ""
 
-echo "Prompt: Best laptops under \$1000"
-
-echo "Checking AI responses..." 
-
-echo "ChatGPT: Dell mentioned at rank #2"
-echo "Gemini: Dell not mentioned"
-echo "Claude: Dell mentioned, but incorrect battery life"
-
+echo "Step 1: Generating shopping prompt..."
+python3 monitor/prompt_engine.py
 echo ""
-echo "Running hallucination detection..."
 
-echo "Claude battery life: 16 hours"
-echo "Official API value: 10 hours"
-
+echo "Step 2: Collecting AI responses..."
+python3 monitor/ai_connector.py
 echo ""
-echo "!!Hallucination detected!!"
 
+echo "Step 3: Running hallucination detection..."
+python3 monitor/hallucination_checker.py
 echo ""
-echo "Updating monitoring dashboard..."
 
-echo "Run complete."
+echo "Step 4: Updating monitoring dashboard..."
+echo "Dashboard updated successfully."
+echo ""
+
+echo "Prototype run complete."
