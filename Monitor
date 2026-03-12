@@ -1,14 +1,1 @@
-def generate_prompt():
-    return "Best laptops under $1000"
 
-def get_ai_response():
-    return {
-        "ChatGPT": "Dell Inspiron ranked #2",
-        "Gemini": "No Dell product mentioned",
-        "Claude": "Dell Inspiron with 16 hour battery"
-    }
-
-def check_product_data(ai_value, real_value):
-    if ai_value != real_value:
-        return "Mismatch detected"
-    return "Data correct"
