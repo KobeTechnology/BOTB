@@ -5,7 +5,7 @@ from monitor.response_parser import parse_ai_responses
 from api.product_data_api import get_product_data
 from monitor.hallucination_checker import check_ai_responses
 from monitor.metrics_tracker import calculate_metrics
-
+from monitor.result_logger import log_results
 
 def main():
     all_results = []
