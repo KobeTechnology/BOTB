@@ -109,47 +109,6 @@ These files show how the platform could connect to:
 
 This design allows the prototype to remain stable while still demonstrating how the full production system would operate.
 
-
-
-## System Architecture
-
-```mermaid
-flowchart TD
-
-A[Company Profiles<br>config/company_profile.py]
-
-B[Prompt Engine<br>monitor/prompt_engine.py]
-
-C[AI Connector<br>monitor/ai_connector.py]
-
-D[AI Assistants<br>ChatGPT / Gemini / Claude]
-
-E[Response Parser<br>monitor/response_parser.py]
-
-F[Official Product Data API<br>api/product_data_api.py]
-
-G[Hallucination Checker<br>monitor/hallucination_checker.py]
-
-H[Metrics Tracker<br>monitor/metrics_tracker.py]
-
-I[Result Logger<br>monitor/result_logger.py]
-
-J[Monitoring History<br>logs/monitoring_results.json]
-
-K[Dashboard / Frontend<br>Future UI]
-
-A --> B
-B --> C
-C --> D
-D --> E
-E --> G
-F --> G
-G --> H
-H --> I
-I --> J
-J --> K
-
-
 ## Running the Project
 Run the prototype using:
 
