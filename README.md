@@ -92,3 +92,7 @@ Example technologies used in this prototype:
 ---
 
 ## Running the Project
+Run the prototype using:
+
+```bash
+./run.sh
