@@ -30,7 +30,7 @@ def main():
         print()
 
         print("Step 4: Collecting AI responses...")
-        raw_ai_responses = get_ai_responses(prompt)
+        raw_ai_responses = get_ai_responses(prompt, company_profile)
         print()
 
         print("Step 5: Parsing AI responses...")
@@ -46,6 +46,10 @@ def main():
         print("Step 7: Calculating metrics...")
         metrics = calculate_metrics(results)
         print(metrics)
+        print()
+
+        print("Step 7.5: Logging monitoring results...")
+        log_results(company_profile, results, metrics)
         print()
 
         print("Step 8: Final Summary")
