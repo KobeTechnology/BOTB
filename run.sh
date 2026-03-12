@@ -6,7 +6,7 @@ echo "=============================================="
 
 echo ""
 echo "Running AI production Discovery monitoring test..."
-ehco ""
+echo ""
 
 echo "Prompt: Best laptops under \$1000"
 
