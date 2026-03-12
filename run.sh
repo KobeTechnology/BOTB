@@ -4,7 +4,7 @@ echo "=============================================="
 echo " AI Product Visibility & Trust Monitoring "
 echo "=============================================="
 
-echo""
+echo ""
 echo "Running AI production Discovery monitoring test..."
 ehco ""
 
