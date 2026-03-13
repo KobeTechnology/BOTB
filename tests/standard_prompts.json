@@ -1,0 +1,19 @@
+{
+  "laptops": [
+    "Best laptops under $1000",
+    "Best laptops for students",
+    "Most reliable laptops for work",
+    "Top laptops for business use",
+    "Best affordable laptops for programming"
+  ],
+  "credit_card_software": [
+    "Best credit card processing software for small business",
+    "Top payment processing platforms",
+    "Best POS systems for small businesses"
+  ],
+  "cloud_storage": [
+    "Best cloud storage services for teams",
+    "Top secure cloud storage providers",
+    "Best cloud storage for small businesses"
+  ]
+}

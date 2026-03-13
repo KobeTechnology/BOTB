@@ -91,4 +91,26 @@ Example technologies used in this prototype:
 
 ---
 
+## API Integration Notes
+
+The current prototype uses simulated AI responses and simulated official product data to ensure the project runs reliably without external credentials.
+
+To demonstrate production feasibility, the repository also includes example API integration files:
+
+- `api/ai_api_examples.py`
+- `api/product_api_examples.py`
+
+These files show how the platform could connect to:
+
+- AI model APIs such as OpenAI, Anthropic, and Gemini
+- company product APIs
+- retailer product APIs
+- structured product feeds
+
+This design allows the prototype to remain stable while still demonstrating how the full production system would operate.
+
 ## Running the Project
+Run the prototype using:
+
+```bash
+./run.sh
